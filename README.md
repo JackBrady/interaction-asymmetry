@@ -13,17 +13,17 @@ The following commands can be used to run experiments using the regularized Tran
 
 **Sprites**:
 ```
-python --data "sprites" --encoder "transformer" --decoder "transformer" --alpha 0.05 --beta 0.05
+python train_model.py --data "sprites" --encoder "transformer" --decoder "transformer" --alpha 0.05 --beta 0.05
 ```
 
 **CLEVR6**
 ```
-python --data "clevr" --encoder "transformer" --decoder "transformer" --alpha 0.05 --beta 0.05
+python train_model.py --data "clevr" --encoder "transformer" --decoder "transformer" --alpha 0.05 --beta 0.05
 ```
 
 **CLEVRTex**
 ```
-python --data "clevrtex" --encoder "transformer" --decoder "transformer" --alpha 0.05 --beta 0.05
+python train_model.py --data "clevrtex" --encoder "transformer" --decoder "transformer" --alpha 0.05 --beta 0.05
 ```
 
 To use the baseline models in our experiments, the inputs for the encoder/decoder and hyperparameter values should be changed accordingly.
